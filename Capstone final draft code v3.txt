@@ -1,0 +1,46 @@
+
+
+print("Hello, Welcome to Vandalay Wealth Management Services. Please Fill out the following information: ")
+
+firstname = input("Please enter your First Name: ")
+lastname = input("Please enter your Last Name: ") 
+print ("Good Afternoon: " +firstname,lastname) 
+
+address = input("Please enter your street address: ")
+city = input("Please enter your city name: ")
+state = input("Enter your State: ")
+zipcode = input("Please enter your zip code: ")
+email = input("Please enter your email address: ")
+phonenumber = input("Please enter your phone number: ")
+
+answer = input("What is your preferred contact information, phone number or email? ") 
+if answer == "phone number":
+        print("Preferred Contact: " +phonenumber) 
+if answer == "email":
+        print("Preferred Contact: " +email)
+
+
+s1 = "Planning & Advice,"
+s2 = "Investing,"
+s3 = "Trust & Estates" 
+
+
+services = [s1, s2, s3]
+
+print("Which of the following services would you be interested in?: " +s1,s2,s3)
+service_inquiry = input(" ")
+
+answer = input("Would you like to enroll in our weekly newsletter, yes please or no thanks? This contains information about current market analyses and trends. ")
+if answer == "yes please":
+    print ("Success! You will be enrolled in our newsletter. ")
+if answer == "no thanks":
+    print ("You will not be added to our newsletter. You can always return to our site to opt in anytime. ")
+
+
+print("Thank you for your interest in joining Vandalay Wealth Management Services: " +firstname,lastname) 
+print("An advisor will contact you shortly, have a great rest of your day.")
+
+ 
+
+
+
